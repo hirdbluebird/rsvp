@@ -3,6 +3,20 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
+  state = {
+    guests: [
+      {
+        name: 'Treasure',
+        isConfirmed: false,
+      },
+      {
+        name: 'Nic',
+        isConfirmed: true,
+      },
+    ]
+  }
+
   render() {
     return (
       <div className="App">
